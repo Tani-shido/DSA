@@ -1,0 +1,9 @@
+Cpp STL (Standard Template Library):
+
+A compilation of algorithms, container, iteraters, functions in a minimized version so that we don't have to write long and lengthy code.
+
+It is divided into 4 parts:
+1. Algorithms
+2. Containers
+3. Functions
+4. Iterators

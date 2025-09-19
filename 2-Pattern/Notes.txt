@@ -1,0 +1,18 @@
+Patterns:
+
+Nested loops -> Inner/Outer
+In DSA's most of the topics one thing is common in them which is loops.
+
+Patterns nested loops and most of them are loops inner and outer loops.
+
+To master loops we have to practice patterns.
+
+There are 4 Points/Steps to print any pattern:
+
+1. For the outer loop count the number of lines. (count the rows, which will determine outer loop)
+
+2. For the inner loop, focus on columns and somehow connect them to the rows.
+
+3. Whetever printing, print it inside the inner for loop.
+
+4. Observe symmetry (optional).
