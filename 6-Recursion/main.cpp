@@ -71,14 +71,36 @@ using namespace std;
 // }
 
 // Print sum of first n numbers using functional way
-void recursion8(int n){
-    if(n == 0) return;
-    return n + recursion8(n-1);
-}
+// int recursion8(int n){
+    // if(n == 0){
+        // return 0;
+    // }else{
+        // return n + recursion8(n-1);
+    // }
+// }
+
+// Print factorial of first n numbers parameterized way
+// void recursion9(int i,int n, long long fact){
+//     if (i > n) {
+//         cout << "fact is: " << fact;
+//         return;
+//     }
+//     recursion9(i+1, n, fact*i);
+// }
+
+// Print factorial of first n numbers functional way
+// int recursion9(int n){
+//     if(n == 0) return 1;
+//     else{
+//         return n * recursion9(n-1);
+//     }
+// }
+
+
 
 int main(){
     int n ;
     cin >> n;
-    cout << recursion8(n);
+    recursion10(n);
     return 0;
 }
